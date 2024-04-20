@@ -1,0 +1,31 @@
+{
+    "manifest_version": 3,
+    "name": "My Ad Blocker",
+    "version": "1.0",
+    "description": "Blocks ads on web pages.",
+    "permissions": ["declarativeNetRequest"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "icon.png",
+        "48": "icon.png",
+        "128": "icon.png"
+      }
+    },
+    "icons": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    },
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": "icon.png"
+    },
+    "permissions": [
+      "activeTab"
+    ]
+  }
+  
